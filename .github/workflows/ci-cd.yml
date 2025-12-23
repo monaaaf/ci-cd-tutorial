@@ -1,5 +1,9 @@
 name: CI/CD Pipeline
 
+permissions:
+  contents: write   # for actions like checkout
+  id-token: write   # required by deploy-pages@v4
+
 on:
   push:
     branches:
