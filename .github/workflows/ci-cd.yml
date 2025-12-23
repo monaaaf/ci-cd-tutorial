@@ -1,9 +1,9 @@
 name: CI/CD Pipeline
 
 permissions:
-  contents: write       # for checkout
-  pages: write          # for deploying to GitHub Pages
-  id-token: write       # required by deploy-pages@v4
+  contents: write # for checkout
+  pages: write # for deploying to GitHub Pages
+  id-token: write # required by deploy-pages@v4
 
 on:
   push:
